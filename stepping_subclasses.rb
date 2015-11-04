@@ -13,7 +13,7 @@ class Knight < SteppingPieces
   ]
 
   def to_s
-    ' ♘  '.colorize(@color)
+    ' ♘ '.colorize(@color)
   end
 
   def move_dirs
@@ -39,7 +39,7 @@ class King < SteppingPieces
   ]
 
   def to_s
-    ' ♔  '.colorize(@color)
+    ' ♔ '.colorize(@color)
   end
 
   def move_dirs

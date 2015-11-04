@@ -10,7 +10,7 @@ class Rook < SlidingPiece
   ]
 
   def to_s
-    ' ♖  '.colorize(@color)
+    ' ♖ '.colorize(@color)
   end
 
   def move_dirs
@@ -32,7 +32,7 @@ class Bishop < SlidingPiece
   ]
 
   def to_s
-    ' ♗  '.colorize(@color)
+    ' ♗ '.colorize(@color)
   end
 
   def move_dirs
@@ -59,7 +59,7 @@ class Queen < SlidingPiece
   ]
 
   def to_s
-    ' ♕  '.colorize(@color)
+    ' ♕ '.colorize(@color)
   end
 
   def move_dirs

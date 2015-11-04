@@ -1,4 +1,3 @@
-require 'byebug'
 require_relative 'stepping_subclasses'
 require_relative 'sliding_subclasses'
 require_relative 'pawn'

@@ -47,7 +47,7 @@ class Pawn < Piece
   end
 
   def to_s
-    ' ♟  '.colorize(@color)
+    ' ♟ '.colorize(@color)
   end
 
   def dup
